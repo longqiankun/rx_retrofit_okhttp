@@ -1,0 +1,10 @@
+<resources>
+    <string name="status_400">请求出错</string>
+    <string name="status_401">授权出错，需重新登录。</string>
+    <string name="status_404">没有找到请求地址</string>
+    <string name="status_500">服务器错误</string>
+    <string name="status_302">重定向</string>
+    <string name="status_1000">请求超时</string>
+    <string name="status_1001">未知错误</string>
+    <string name="status_1002">连接服务器失败，请检查网络！</string>
+</resources>

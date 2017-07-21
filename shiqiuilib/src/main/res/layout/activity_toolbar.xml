@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/s_app_bg"
+    android:layout_height="match_parent">
+<com.shiqichuban.lib.ui.view.CustomToolBar
+    android:id="@+id/customToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:visibility="gone"/>
+
+    <com.zhy.autolayout.AutoFrameLayout
+        android:id="@+id/afl_contains"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customToolbar"/>
+
+</com.zhy.autolayout.AutoRelativeLayout>

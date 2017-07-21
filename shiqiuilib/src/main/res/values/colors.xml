@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6c6f83</color>
+    <color name="colorPrimaryDark">#2e3351</color>
+    <color name="colorAccent">#4e3a41</color>
+
+
+    <color name="s_line">#eeeeee</color>
+    <color name="s_app_bg">#FFFFFF</color>
+    <color name="s_btn">#2c2c2c</color>
+    <color name="s_title">#2c2c2c</color>
+    <color name="s_content">#333333</color>
+    <color name="s_des">#8d8d8d</color>
+    <color name="s_translation">#00000000</color>
+    <color name="s_half_translation">#55000000</color>
+
+    <color name="s_alert_blue">#037BFF</color>
+    <color name="s_toast_bg">#aa000000</color>
+</resources>

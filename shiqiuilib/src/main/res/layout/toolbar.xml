@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.shiqichuban.lib.ui.view.TextViewClick
+        android:id="@+id/tvc_top_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/back"
+         />
+
+    <com.shiqichuban.lib.ui.view.TextViewClick
+        android:id="@+id/tvc_top_certer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="辩题" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tvc_top_certer"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+
+        <com.shiqichuban.lib.ui.view.TextViewClick
+            android:id="@+id/tvc_top_right1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:text="右边1" />
+
+        <com.shiqichuban.lib.ui.view.TextViewClick
+            android:id="@+id/tvc_top_right2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:text="右边2" />
+
+        <com.shiqichuban.lib.ui.view.TextViewClick
+            android:id="@+id/tvc_top_right3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:text="右边3" />
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

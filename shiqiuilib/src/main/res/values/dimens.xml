@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s_title">28px</dimen>
+    <dimen name="s_content">24px</dimen>
+    <dimen name="s_des">18px</dimen>
+    <dimen name="s_btn">30px</dimen>
+
+
+</resources>

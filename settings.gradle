@@ -1,0 +1,1 @@
+include ':app', ':shiqicorelib', ':shiqiuilib'
